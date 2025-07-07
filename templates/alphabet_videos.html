@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASL Alphabet Videos</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+    <style>
+      .video-grid {
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(300px, 1fr)
+        ); /* Responsive grid */
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .video-container {
+        background-color: #22252a;
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .video-container video {
+        width: 100%;
+        max-height: 300px; /* Adjust as needed */
+        border-radius: 5px;
+      }
+
+      .video-container h3 {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-bar">
+      <div class="s-icon-container">
+        <img
+          src="{{ url_for('static', filename='s.png') }}"
+          alt="S Logo"
+          class="s-icon"
+        />
+      </div>
+      <h1 class="title">ASL Alphabet Videos</h1>
+    </header>
+
+    <div class="video-grid">
+      <div class="video-container">
+        <h3>A</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/A.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>B</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/B.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>C</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/C.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>D</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/D.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>E</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/E.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>F</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/F.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>G</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/G.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>H</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/H.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>I</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/I.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>J</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/J.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>K</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/K.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>L</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/L.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>M</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/M.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>N</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/N.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>O</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/O.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>P</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/P.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>Q</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/Q.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>R</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/R.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>S</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/S.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>T</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/T.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>U</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/U.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>V</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/V.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>W</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/W.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>X</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/X.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>Y</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/Y.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-container">
+        <h3>Z</h3>
+        <video controls>
+          <source
+            src="{{ url_for('static', filename='alphabet/Z.mp4') }}"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </body>
+</html>

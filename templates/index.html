@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignVerse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+ <!-- Header -->
+<header class="header-bar">
+    <div class="s-icon-container">
+        <img src="{{ url_for('static', filename='s.png') }}" alt="S Logo" class="s-icon">
+    </div>
+    <h1 class="title">SignVerse</h1>
+</header>
+
+
+    <!-- Welcome Box -->
+    <div class="welcome-box">
+        <h2>Welcome to <span class="title">SignVerse</span></h2>
+        <p>Your gateway to communication and learning sign language. Choose your journey below.</p>
+    </div>
+
+    <!-- Buttons Section -->
+    <div class="buttons-container">
+        <a href="{{ url_for('chat') }}" class="btn">
+            <div class="icon-circle">
+                <img src="{{ url_for('static', filename='chat-icon.png') }}" alt="Chat">
+            </div>
+            <h3>Chat</h3>
+            <p>Connect with others and practice sign language in real-time conversations.</p>
+        </a>
+
+        <a href="{{ url_for('learn') }}" class="btn">
+            <div class="icon-circle">
+                <img src="{{ url_for('static', filename='learn-icon.png') }}" alt="Learn">
+            </div>
+            <h3>Learn</h3>
+            <p>Explore tutorials, resources, and interactive lessons to master sign language.</p>
+        </a>
+    </div>
+
+</body>
+</html>

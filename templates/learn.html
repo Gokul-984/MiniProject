@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn SignVerse - Alphabet</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <header class="header-bar">
+      <div class="s-icon-container">
+        <img
+          src="{{ url_for('static', filename='s.png') }}"
+          alt="S Logo"
+          class="s-icon"
+        />
+      </div>
+      <h1 class="title">SignVerse - Learn Alphabet</h1>
+    </header>
+
+    <div class="welcome-box">
+      <h2>Learn the ASL Alphabet</h2>
+      <p>
+        Click the folder below to start learning the American Sign Language
+        alphabet.
+      </p>
+    </div>
+
+    <div class="buttons-container">
+      <a href="{{ url_for('alphabet_videos') }}" class="btn">
+        <div class="icon-circle">
+          <img
+            src="{{ url_for('static', filename='icon.png') }}"
+            alt="Alphabet"
+          />
+        </div>
+        <h3>Alphabet</h3>
+        <p>Learn the ASL alphabet.</p>
+      </a>
+    </div>
+  </body>
+</html>
